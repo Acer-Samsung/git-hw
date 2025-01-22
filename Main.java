@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         String conflictCommitOnMain;
+        String conflictCommitOnMain2;
+        String conflictCommitOnMain3;
 
         DB db = new DB();
         User user = new User(db);
