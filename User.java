@@ -11,6 +11,8 @@ public class User {
 
     String phone;
 
+    private String login;
+    private String password;
     private DB db;
 
     public User(DB db) {this.db = db;}

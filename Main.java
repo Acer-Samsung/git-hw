@@ -61,5 +61,8 @@ public class Main {
 
         System.out.println("Final Users: " + db.getUsers());
         System.out.println("Final Comments: " + db.getComments());
+
     }
+
+    private int random(int min, int max) { return (int) (Math.random() * ((max - min) + 1)) + min; };
 }
