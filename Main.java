@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        String conflictCommitOnMain;
+
         DB db = new DB();
         User user = new User(db);
         CommentController commentController = new CommentController(db);
