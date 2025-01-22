@@ -9,6 +9,8 @@ public class User {
     String newlyadded;
     String email;
 
+    String phone;
+
     private DB db;
 
     public User(DB db) {this.db = db;}
