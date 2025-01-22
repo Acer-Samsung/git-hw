@@ -7,6 +7,8 @@ public class User {
     int id =1 ;
     String name;
 
+    private String login;
+    private String password;
     private DB db;
 
     public User(DB db) {this.db = db;}
