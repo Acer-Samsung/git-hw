@@ -6,13 +6,15 @@ public class User {
 
     int id =1 ;
     String name;
+    String newlyadded;
+    String email;
 
     private DB db;
 
     public User(DB db) {this.db = db;}
 
 
-    public void addUser(String user) {
+    public void newUser(String user) {
         db.getUsers().add(user + " --- id = "+ id++);
     }
 
