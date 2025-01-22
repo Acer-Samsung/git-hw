@@ -19,13 +19,10 @@ public class CommentController {
     private DB db;
 
     public void addComment(Comment comment) {
+        if (comment.comment == null || comment.comment.isEmpty()) {
+            throw new IllegalArgumentException("Comment cannot be null or empty");
+        }
         comment.id = comment.id + 1;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter user id: ");
-        comment.user_id = sc.nextInt();
-        System.out.println("Enter comment: ");
-        Scanner sc2 = new Scanner(System.in);
-        comment.comment = sc2.nextLine();
-        db.getComments().add("id = "+ comment.id + " userid = " + comment.user_id + " comment = " + comment.comment);
+        db.getComments().add("Comment ID: " + comment.id + ", User ID: " + comment.user_id + ", Content: " + comment.comment); // Different logic
     }
 }
