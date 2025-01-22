@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         DB db = new DB();
-        User user = new User(db);
+        UserChild user = new UserChild(db);
         CommentController commentController = new CommentController(db);
 
         Scanner scanner = new Scanner(System.in);
