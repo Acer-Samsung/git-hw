@@ -1,13 +1,11 @@
 public class User {
-    public User(int id, String name, int age) {
+    public User(int id, String name) {
         this.id = id;
         this.name = name;
-        this.age = age;
     }
 
     int id =1 ;
     String name;
-    int age;
 
     private DB db;
 
@@ -15,8 +13,7 @@ public class User {
 
 
     public void addUser(String user) {
-        db.getUsers().add(user);
-        System.out.println("user added");
+        db.getUsers().add(user + " --- id = "+ id++);
     }
 
     public void listUsers() {
