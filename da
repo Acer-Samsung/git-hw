@@ -1,0 +1,105 @@
+[33mcommit 695dcad89f749c1e6dd527a68d1bd7ac2ec59f22[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtech-1[m[33m)[m
+Merge: fe65aeb 88424e5
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 16:15:49 2025 +0500
+
+    Merge branch 'tech-2' into tech-1
+
+[33mcommit 88424e541499de0a0996a58759536c317022696b[m[33m ([m[1;32mtech-2[m[33m)[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 16:15:13 2025 +0500
+
+    renamed class
+
+[33mcommit fe65aeb333492082acc935c94975edad608460d3[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 16:14:14 2025 +0500
+
+    edit
+
+[33mcommit 22c3fa10bfb33b32f5f296bee947aace199c0448[m
+Merge: 2660458 395ee09
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 15:29:50 2025 +0500
+
+    Merge branch 'tech-2' into tech-1
+    i need this for study purposes.
+
+[33mcommit 395ee09f9428567e503d58543041c7f5ff6672eb[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:49:23 2025 +0500
+
+    get ready
+
+[33mcommit 2660458c2746bd0c6dd3584244bb9031678b5045[m
+Merge: 5e34264 8c32cf2
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:36:05 2025 +0500
+
+    first conflict on db
+
+[33mcommit 5e34264b20cc39d4d209ed1ff69b86328988b48a[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:32:04 2025 +0500
+
+    sds
+
+[33mcommit fae72ca8e509ac995dd780f76292b824fb861cfc[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:31:34 2025 +0500
+
+    2more
+
+[33mcommit 8c32cf2dbaf67785892153b2e32704bb723253cb[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:30:43 2025 +0500
+
+    random num conflict on main
+
+[33mcommit a41814ea0ee335fe8ba121a5e7f309ab1d941bb0[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:29:16 2025 +0500
+
+    conflict user t2
+
+[33mcommit 256b876a60fe4b94ac0767a46903cdd66d0fd4b0[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:28:32 2025 +0500
+
+    conflict db tech2
+
+[33mcommit 7593b7d04f13d04a262cbb3213f31abaa5e3ed3f[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:27:09 2025 +0500
+
+    added fields to db
+
+[33mcommit 83aa9b8f37417f9cdcc25eb909fda628b383e7db[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:26:32 2025 +0500
+
+    added fields to main
+
+[33mcommit 8968b95e72c988544d5e70717ca392d5261beab2[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 14:25:20 2025 +0500
+
+    added new fields to user
+
+[33mcommit ed7cb7ea3a45023d421eaa61aba0bb4d425d92d6[m[33m ([m[1;31morigin/tech-2[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 12:15:35 2025 +0500
+
+    created Main class and completed CommentController
+
+[33mcommit 085458f1dc9fd36f48ab28c285800d7da41017ee[m[33m ([m[1;31morigin/tech-1[m[33m)[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 11:29:20 2025 +0500
+
+    user class ready
+
+[33mcommit 0deecc2f27494e3d1e5f5ffe5d9813b59a9bc72e[m
+Author: Acer-Samsung <bahtiyorov1907@gmail.com>
+Date:   Wed Jan 22 11:09:01 2025 +0500
+
+    opened
