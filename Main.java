@@ -8,7 +8,7 @@ public class Main {
         String conflictCommitOnMain3;
 
         DB db = new DB();
-        User user = new User(db);
+        UserChild user = new UserChild(db);
         CommentController commentController = new CommentController(db);
 
         Scanner scanner = new Scanner(System.in);

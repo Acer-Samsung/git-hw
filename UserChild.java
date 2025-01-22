@@ -1,5 +1,5 @@
-public class User {
-    public User(int id, String name) {
+public class UserChild {
+    public UserChild(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -15,7 +15,7 @@ public class User {
     private String password;
     private DB db;
 
-    public User(DB db) {this.db = db;}
+    public UserChild(DB db) {this.db = db;}
 
 
     public void addUser(String user) {
