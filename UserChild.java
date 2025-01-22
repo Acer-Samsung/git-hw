@@ -18,12 +18,13 @@ public class UserChild {
     public UserChild(DB db) {this.db = db;}
 
 
-    public void addUser(String user) {
+    public void newUsers(String user) {
         db.getUsers().add(user + " --- id = "+ id++);
     }
 
     public void listUsers() {
         System.out.println("Users: " + db.getUsers());
     }
+
 
 }
