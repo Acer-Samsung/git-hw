@@ -27,7 +27,7 @@ public class Main {
                 case "1":
                     System.out.print("Enter user name: ");
                     String userName = scanner.nextLine();
-                    user.newUser(userName);
+                    user.newUsers(userName);
                     System.out.println("User added successfully.");
                     break;
 
