@@ -18,7 +18,7 @@ public class User {
     public User(DB db) {this.db = db;}
 
 
-    public void newUser(String user) {
+    public void addUser(String user) {
         db.getUsers().add(user + " --- id = "+ id++);
     }
 
